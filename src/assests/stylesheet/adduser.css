@@ -1,0 +1,170 @@
+.adduser{
+  border: 2px solid #747675;
+  position: absolute;
+  height: 60%;
+  width: 35%;
+  border-radius: 7px;
+  align-items: center;
+  background-color: #fff;
+  box-sizing: border-box;
+  box-shadow: 3px 3px 3px 3px rgba(57, 58, 58, 0.8);
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  z-index: 30;
+  justify-content: flex-start;
+  /* animation: adding_user 0.3s ease; */
+}
+.add-upper-border{
+  border: 6px solid #6DA6A8;
+  position: absolute;
+  height: 40%;
+  width: 102%;
+  box-sizing: border-box;
+  left: 50%;
+  transform: translate(-50%);
+  border-bottom-style: hidden;
+  border-top-style: hidden;
+  border-radius: 10px 10px 0 0;
+  z-index: -20;
+  flex-direction: column;
+}
+.add-lower-border{
+  border: 6px solid #6DA6A8;
+  position: absolute;
+  height: 40%;
+  width: 102%;
+  box-sizing: border-box;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  border-bottom-style: hidden;
+  border-top-style: hidden;
+  border-radius: 0 0 10px 10px;
+  z-index: -20;
+}
+.alogin-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 28px;
+
+}
+.alogin-header img{
+  height: 100px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.add-input-box{
+  position: relative;
+  border: 1px solid #47A975;
+  display: flex;
+  height: 8%;
+  width: 85%;
+  align-items: center;
+  margin-bottom:20px;
+  /* border: 1px solid #313030; */
+  box-sizing: border-box;
+  left: 50%;
+  transform: translate(-50%);
+  justify-content: flex-start;
+  border-radius: 5px;
+}
+.addtext_area{
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 23%;
+  background-color:#47A975;
+}
+.addtext{
+  font-size: 17px;
+  color:#ffffff;
+  padding: 10px;
+  text-align: center;
+  font-weight: 500;
+}
+.add-input_area{
+  border: none;
+  height: 80%;
+  width: 60%;
+  outline: none;
+
+}
+.button-area{
+  position:relative;
+  border: 2px solid rgb(166, 12, 169);
+  border: hidden;
+  height: 10%;
+  width: 80%;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: center;
+  gap:2%;
+  padding: 8px;
+  top: 8%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+.add-button1{
+  border: 1px solid rgb(255, 255, 255);
+  cursor: pointer;
+  height: 33px;
+  width: 85px;
+  padding: 8px 20px;
+  font-size: 20px;
+  background-color:#47A975;
+  color: #fff;
+  border-radius: 10px 0 0 10px;
+  font-weight: 500;
+}
+.add-button2{
+  border: 1px solid rgb(255, 255, 255);
+  cursor: pointer;
+  height: 33px;
+  width: 85px;
+  padding: 8px 20px;
+  font-size: 20px;
+  background-color:#47A975;
+  color: #fff;
+  border-radius: 0 10px 10px 0;
+  font-weight: 500;
+}
+.add{
+  border:1px solid rgb(255, 255, 255);
+  height: 100%;
+  width: 80%;
+  border:hidden;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+}
+.password-generations{
+  position: relative;
+  text-decoration: underline;
+  color: #85C0C0;
+  font-size: 20px;
+  right:5px;
+  cursor: pointer;
+}
+.add-select_area{
+  border: none;
+  outline: none;
+  height: 75%;
+  width: 80%;
+}
+
+
+/* @keyframes adding_user{
+  0%{
+    transform: scale(0%);
+    opacity: 0;
+  }
+  100%{
+    transform: scale(100%);
+    opacity: 1;
+  }
+} 

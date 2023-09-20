@@ -1,0 +1,86 @@
+.all-quizbox{
+  position: relative;
+  height: 45%;
+  width:32%;
+  display: flex;
+  flex-direction: row;
+  gap:4%;
+  box-shadow: 3px 3px 3px 3px rgba(57, 58, 58, 0.8);
+}
+.inner-quizbox{
+  position: absolute;
+  height: 100%;
+  width: 75%;
+  top: 0;
+  right:0;
+  bottom:0;
+  background-color:#15CF9F;
+}
+.text-quizbox{
+  position: relative;
+
+  padding: 1px;
+}
+.addquiz-title{
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  text-shadow: 0px 0px 5px #222;
+}
+.adding-icons{
+  position: absolute;
+  height: 90%;
+  width: 15%;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 3px;
+}
+.adding-icons img{
+  height: 65%;
+  width: 50%;
+  filter: invert(100%) sepia(100%) saturate(1%) hue-rotate(305deg) brightness(103%) contrast(101%);
+  cursor: pointer;
+}
+.quiztext{
+  font-family: "Noto Sans";
+  font-size:15px;
+  color: #fff;
+  line-height: 20px;
+  padding: 2px;
+}
+.allbutton-container{
+  height: 22%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.allquiz-button1{
+  background-color: #5EDCBE;
+  height: 100%;
+  width: 28%;
+  color: #118180;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+.allquiz-button2{
+  border: none;
+  height: 100%;
+  width: 28%;
+  cursor: pointer;
+  background-color: #027376;
+  color:#C6DFDF;
+  font-size: 15px;
+  margin-right: 10px;
+}
+.allquiz-buttontext{
+  padding: 2px;
+  text-align: center;
+  font-weight: 400;
+}

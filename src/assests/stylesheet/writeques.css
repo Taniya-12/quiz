@@ -1,0 +1,118 @@
+.w-question-box{
+  position:absolute;
+  height: 100%;
+  width: 63%;
+  display: flex;
+  box-sizing: border-box;
+  right: 0;
+  bottom: 0;
+  padding: 35px;
+}
+.w-ques-box{
+  border:2px solid black;
+  height: 84%;
+  width: 100%;
+  border-radius: 15px;
+  background-color: rgb(219, 247, 237);
+  box-shadow: inset 0 0 10px #312f2c;
+  border-bottom-style: hidden;
+  border-right-style: hidden;
+  padding: 30px;
+}
+.write-ques{
+  position: relative;
+  border:2px solid #069a75;;
+  height: 90%;
+  width: 95%;
+  padding: 10px;
+  background-color: #ffffff;
+  font-size: 20px;
+  color: #21CDA3;
+  font-weight: 500;
+}
+.main-ques{
+  border:1px solid #139f7c;
+  height: 7%;
+  width: 95%;
+  border-radius:12px;
+  margin-top: 8px;
+  padding: 10px;
+}
+.answer-options{
+  height: 37%;
+  width: 95%;
+  padding: 10px;
+  font-size: 18px;
+}
+.option-box{
+  position: relative;
+  display: flex;
+  margin-top: 6px;
+  border: 1px solid #21CDA3;
+  display: flex;
+  height: 20%;
+  width: 98%;
+  align-items: center;
+  border-radius: 5px;
+}
+.o-title_area{
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 20%;
+  background-color:#21CDA3;
+  border-radius: 5px 0 0 5px;
+}
+.o-addtitle{
+  font-size: 18px;
+  color:#ffffff;
+  text-align: center;
+  font-weight: 400;
+}
+.o-add-title_area{
+  border: none;
+  height: 80%;
+  width: 74%;
+  outline: none;
+}
+.add-option{
+  cursor: pointer;
+  padding: 7px;
+  font-size: 17px;
+}
+.add-answer{
+  margin-top: 48px;
+  height: 9%;
+  width: 70%;
+  padding: 15px;
+}
+.answer-select_area{
+  border: 1px solid red;
+  flex-direction: row;
+  margin-left: 10px;
+  border:1px solid #139f7c;
+  height: 100%;
+  width: 50%;
+  background-color: #21CDA3;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 15px;
+}
+.image-div{
+  position: absolute;
+  height: 70%;
+  width: 4%;
+  right:0;
+  text-align: center;
+  cursor: pointer;
+  filter: invert(59%) sepia(43%) saturate(711%) hue-rotate(115deg) brightness(103%) contrast(90%);
+}
+.delete-div12{
+  position: absolute;
+  height: 7%;
+  width: 5%;
+  filter: invert(59%) sepia(43%) saturate(711%) hue-rotate(115deg) brightness(103%) contrast(90%);
+  right: 0;
+  bottom: 7px;
+  cursor: pointer;
+}

@@ -1,0 +1,241 @@
+.quiz-box {
+  border: 2px solid #413e3e;
+  position: absolute;
+  height: 52%;
+  width: 71%;
+  border-radius: 25px;
+  align-items: center;
+  background-color: #fff;
+  box-sizing: border-box;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 30;
+  justify-content: flex-start;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  padding: 20px;
+}
+
+.newquiz {
+  height: 95%;
+  width: 35%;
+  font-weight: 500;
+  color: #21CDA3;
+  padding: 10px;
+  line-height: 30px;
+  font-size: 20px;
+}
+
+.title-input-box {
+  position: relative;
+  border: 1px solid #21CDA3;
+  display: flex;
+  height: 8%;
+  width: 98%;
+  align-items: center;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  left: 50%;
+  transform: translate(-50%);
+  justify-content: flex-start;
+  border-radius: 5px;
+  margin-top: 2px;
+}
+
+.addtitle_area {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 23%;
+  background-color: #21CDA3;
+}
+
+.addtitle {
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 400;
+}
+
+.add-title_area {
+  border: none;
+  height: 80%;
+  width: 90%;
+  outline: none;
+}
+
+.checkpoints-box {
+  height: 20%;
+  width: 100%;
+}
+
+.timer-box {
+  height: 45%;
+  width: 98%;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  padding: 2px;
+}
+
+input[id="cb1"]+label {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #21CDA3;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-right: 2px;
+}
+
+input[id="cb1"]:checked+label:after {
+  position: relative;
+  top: -6px;
+  left: 2px;
+  content: '\2714';
+  font-size: 20px;
+  color: #21CDA3;
+}
+
+input[id="cb1"] {
+  display: none;
+}
+
+input[id="cb2"]+label {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #21CDA3;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-right: 2px;
+}
+
+input[id="cb2"]:checked+label:after {
+  position: relative;
+  top: -6px;
+  left: 2px;
+  content: '\2714';
+  font-size: 20px;
+  color: #21CDA3;
+}
+
+input[id="cb2"] {
+  display: none;
+}
+
+.timer-add {
+  border: 1px solid #109e7a;
+  width: 7%;
+  height: 50%;
+  margin-left: 25px;
+  color: #21CDA3;
+  margin-top: 5px
+}
+input[id="input-2"]::-webkit-inner-spin-button,
+input[id="input-2"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin:0;
+}
+
+.n-mark-box {
+  width: 58%;
+  margin-left: 20px;
+}
+
+.n-marks-add {
+  border: 1px solid #109e7a;
+  width: 13%;
+  height: 50%;
+  margin-left: 5px;
+  color: #21CDA3;
+}
+
+.h-separator {
+  background-color: #00ffbf;
+}
+
+.ques-no-box {
+  position: relative;
+  height: 40%;
+  width: 95%;
+  padding: 5px;
+  font-size: 20px;
+
+}
+
+.ques-number-box {
+  height: 25%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.question-number {
+  border: 1px solid #158166;
+  height: 70%;
+  width: 8%;
+  background: #21CDA3;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+}
+.question-number:active{
+
+  background-color: #158166;
+}
+
+.add-ques-button {
+  cursor: pointer;
+  border: 1px solid #21CDA3;
+  height: 18%;
+  width: 40%;
+  background: #21CDA3;
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  margin-left: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.button-area-1 {
+  position: absolute;
+  height: 25%;
+  width: 60%;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+  margin-top: 20px;
+}
+
+.ques-button1 {
+  border: 1px solid #21CDA3;
+  height: 75%;
+  width: 43%;
+  background-color: #21CDA3;
+  color: #fff;
+  border-radius: 10px 0 0 10px;
+  text-align: center;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.ques-button2 {
+  border: 1px solid #21CDA3;
+  height: 75%;
+  width: 43%;
+  background-color: #21CDA3;
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+}

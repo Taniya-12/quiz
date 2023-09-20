@@ -1,0 +1,75 @@
+.all-userbox{
+  position: relative;
+  height: 85%;
+  width:32%;
+  display: flex;
+  flex-direction: row;
+  gap:4%;
+  background-image: linear-gradient(to left, rgb(255, 255, 255) 70%, #15CF9F);
+  box-shadow:2px 2px 5px 1px grey;
+  border-radius: 5px;
+  margin-bottom: 18px;
+}
+.userbox-img{
+  height: 70px;
+  width:70px;
+  border: 3px solid rgb(43, 167, 134);
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  margin-top: 7px;
+  margin-left: 7px;
+}
+.body-container{
+  position: absolute;
+  height: 100%;
+  width: 70%;
+  right:0;
+  bottom:0;
+  justify-content: space-between;
+}
+.usertype-button{
+  position: absolute;
+  top:0;
+  right:0;
+  height: 40%;
+  width: 30%;
+  padding: 8px;
+}
+.usertype-buttontext{
+  border: 1px solid #027376;
+  align-items: center;
+  text-align: center;
+  background-color: #027376;
+  color: #ffffff;
+  cursor:pointer;
+}
+.all-name{
+  position: relative;
+  top:32%;
+  right:0;
+  height: 35%;
+  width: 95%;
+  align-items: center;
+  padding: 5px;
+  font-size: 20px;
+  color:#15CF9F;
+  font-weight: 600;
+}
+.foricons{
+  position: absolute;
+  bottom:0;
+  right:0;
+  height: 25%;
+  width: 16%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.foricons img{
+  height: 75%;
+  width: 60%;
+  filter: invert(64%) sepia(69%) saturate(5503%) hue-rotate(149deg) brightness(101%) contrast(87%);
+  cursor: pointer;
+}

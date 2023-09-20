@@ -1,0 +1,232 @@
+/* body{
+  margin: 0;
+  padding: 0;
+} */
+.background{
+  height: 100%;
+  width:100%;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+}
+/* .background::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to right, transparent, rgba(115, 246, 219, 0.2));
+} */
+
+.upper-area{
+  position: relative;
+  height: 10%;
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 10px;
+}
+.middle-area{
+  position: relative;
+  height: 80%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.quiz-logo{
+  height: 95px;
+  margin-top: 10px;
+  filter: invert(25%) sepia(100%) saturate(840%) hue-rotate(83deg) brightness(98%) contrast(97%);
+}
+.left-area{
+  position: relative;
+  width: 58%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.left-area img{
+  width: 64%;
+  margin-left: 14%;
+  margin-top: 2%;
+}
+.lower_area{
+  position: relative;
+  height: 10%;
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  gap: 5px;
+  box-sizing: border-box;
+  padding-left: 10px;
+  font-family: 'Noto Sans';
+  margin-left: 10px ;
+
+}
+.as_logo{
+  width: 75px;
+  height: auto;
+  margin-left: 15px;
+}
+.as-name{
+position: absolute;
+font-size: 18px;
+color: #31D1A8;
+font-weight: 500;
+float: right;
+margin-top: 23px;
+margin-left: 5px;
+}
+.right-area{
+  position: relative;
+  width: 42%;
+  height:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-box {
+position: relative;
+height: 59%;
+width: 58%;
+display: flex;
+flex-direction: column;
+border-radius: 7px;
+align-items: center;
+background-color: #fff;
+padding: 10px 10%;
+box-sizing: border-box;
+box-shadow: 0 0 20px 5px rgba(67,242,195,0.8);
+z-index: 1;
+}
+
+.login-header {
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 5px;
+margin-bottom: 25px;
+}
+
+.login-header img {
+height: 80px;
+margin-top: 10px;
+transition: all 0.3s ease;
+
+}
+
+.login-header p{
+font-size: 24px;
+margin: 0;
+color: rgb(67, 242, 195);
+}
+.error{
+  height: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:red;
+  transition: all 0.3s ease;
+}
+
+.input-box {
+display: flex;
+width: 100%;
+align-items: center;
+margin-bottom:10px;
+border: 1px solid #313030;
+padding: 0 8px;
+box-sizing: border-box;
+gap: 5px;
+justify-content: flex-start;
+border-radius: 5px;
+border-radius: 4px;
+}
+.input-box .separator {
+width: 2px;
+height: 18px;
+background-color: #313030;
+margin: 0 5px;
+font-weight: bold;
+}
+.inner_img{
+  height: 18px;
+  width: 18px;
+}
+.input_area{
+border:0;
+width: 75%;
+padding: 10px;
+font-size: 15px;
+outline: none;
+margin-left: -10px;
+}
+.login-button {
+width: 100%;
+padding: 10px ;
+font-size: 16px;
+background-color:#15CF9F;
+color: #fff;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+margin-top: 10px;
+}
+.forgot-password {
+margin-top: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.forgot-password-text {
+margin-right: 10px;
+font-size: 10px;
+}
+
+.forgot-password-button {
+padding: 5px 10px;
+text-decoration: underline;
+color: rgb(119, 114, 114);
+font-size: 10px;
+border: none;
+cursor: pointer;
+}
+.welcome_banner{
+  position:absolute;
+  background-color: #fff;
+  height: 60%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 10%;
+  box-sizing: border-box;
+  bottom: 0;
+  left:0;
+  justify-content: center;
+  font-size:2rem;
+  gap:1rem;
+  animation: welcome_an 0.5s ease;
+}
+.welcome_banner #u_name{
+  font-size: 3 rem;
+  color:#15CF9F;
+  font-family: "montserrat";
+  font-weight: bold;
+}
+
+@keyframes welcome_an{
+  0%{
+    transform: scale(0%);
+    opacity: 0;
+  }
+  100%{
+    transform: scale(100%);
+    opacity: 1;
+  }
+}
