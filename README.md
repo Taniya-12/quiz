@@ -1,2 +1,2 @@
 # quiz
-React Project
+React baed Quiz Project
