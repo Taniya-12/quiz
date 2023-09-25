@@ -6,7 +6,6 @@ import makeid from '../../common/Utils';
 
 export default function AddQuiz({ curr_quiz, closeModal, getNewQuizData }) {
   
-
   const [quiz, setQuiz] = useState(null);
   const [sel_ques, setSelQues] = useState(null);
   const [sel_ques_no, setSelQuesNo] = useState(1);
