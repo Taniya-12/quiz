@@ -6,7 +6,6 @@ let user_data = {
   "profile_img": "http://xplore.cloud:3003/training/1688311016669-277360560.png",
 }
 
-
 export const users = [
   {
     "id": "0",
