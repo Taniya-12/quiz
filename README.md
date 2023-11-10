@@ -1,5 +1,5 @@
 # quiz
-React baed Quiz Project
+React based Quiz Project
 
 
  This is a login page..
